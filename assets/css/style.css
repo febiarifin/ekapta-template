@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.navbar-nav > .nav-item{
+    margin-right: 20px;
+    margin-left: 15px;
+    color: #000000;
+}
+
+.navbar-nav > .active{
+    background-color: #ffe5e1;
+    width: 120px;
+    text-align: center;
+}
+
+.navbar-nav > .active > .nav-link{
+    color: #ff4f2f;
+}
+
+.btn-primary-me{
+    background-color: #ff4f2f !important;
+    border-color: #ff4f2f !important;
+    color: #ffffff !important;
+}
+
+.container-home{
+    padding: 30px 0px 3 0px 0px;
+}
+
+.container-text-home{
+    padding-top: 100px;
+}
+
+.container-image-home{
+    padding-top: 25px;
+}
+
+.container-text-home > h1{
+    font-size: 35pt;
+}
+
+.image-home{
+    width: 550px;
+}
+
+.container-tentang{
+    padding: 200px 0 100px 0;
+}
+
+.container-alur{
+    padding: 100px 0 100px 0;
+}
+
+.container-footer{
+    background-color: #ff6b51 !important;
+    padding: 50px 0 20px 0;
+}
+
+.container-footer-bottom{
+    background-color: #ff4f2f;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+    .container-login-register{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .container-home{
+        padding: 20px;
+    }
+
+    .container-text-home{
+        padding-top: 30px;
+    }
+
+    .image-home{
+        width: 300px;
+    }
+
+    .container-tentang{
+        padding: 50px;
+    }
+}
