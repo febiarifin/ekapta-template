@@ -69,6 +69,10 @@
     padding-top: 20px;
 }
 
+.container-login{
+    height: 100vh;
+}
+
 @media only screen and (max-width: 990px) {
     .container-login-register{
         margin-top: 20px;
@@ -89,5 +93,9 @@
 
     .container-tentang{
         padding: 50px;
+    }
+
+    .btn-login{
+        width: 100%;
     }
 }
