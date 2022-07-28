@@ -16,18 +16,22 @@
 }
 
 .navbar-nav > .active{
-    background-color: #ffe5e1;
+    /* background-color: #ffe5e1; */
+    background-color: #ebecec;
     width: 120px;
     text-align: center;
 }
 
 .navbar-nav > .active > .nav-link{
-    color: #ff4f2f;
+    /* color: #ff4f2f; */
+    color: #343a40;
 }
 
 .btn-primary-me{
-    background-color: #ff4f2f !important;
-    border-color: #ff4f2f !important;
+    /* background-color: #ff4f2f !important; */
+    /* border-color: #ff4f2f !important; */
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
     color: #ffffff !important;
 }
 
@@ -60,12 +64,12 @@
 }
 
 .container-footer{
-    background-color: #ff6b51 !important;
+    background-color: #343a40 !important;
     padding: 50px 0 20px 0;
 }
 
 .container-footer-bottom{
-    background-color: #ff4f2f;
+    /* background-color: #ff4f2f; */
     padding-top: 20px;
 }
 
