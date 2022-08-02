@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pendaftaran TA</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/AdminLTE/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/AdminLTE/dist/css/adminlte.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="/AdminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="/AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="/AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white sticky-top">
+            <div class="container">
+                <a href="/AdminLTE/index3.html" class="navbar-brand">
+                    <img src="/AdminLTE/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                        class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <span class="brand-text font-weight-light">Febi Arifin</span>
+                </a>
+
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="dasboard.html" class="nav-link">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pengajuan.html" class="nav-link">Pengajuan TA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pendaftaran.html" class="nav-link active">Pendaftaran TA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bimbingan.html" class="nav-link">Bimbingan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="seminar.html" class="nav-link">Seminar Proposal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ujian.html" class="nav-link">Ujian Pendadaran</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right navbar links -->
+                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto mr-3">
+                    <!-- Notifications Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">
+                            <i class="far fa-bell"></i>
+                            <span class="badge badge-warning navbar-badge">15</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <span class="dropdown-header">15 Notifications</span>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-envelope mr-2"></i> 4 new messages
+                                <span class="float-right text-muted text-sm">3 mins</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users mr-2"></i> 8 friend requests
+                                <span class="float-right text-muted text-sm">12 hours</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-file mr-2"></i> 3 new reports
+                                <span class="float-right text-muted text-sm">2 days</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="btn btn-outline-danger btn-sm order-1 order-md-3 ml-auto mt-1">Logout
+                            <i class="fas fa-arrow-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Pendaftaran Tugas Akhir</h1>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Pendaftaran TA</a></li>
+                                <li class="breadcrumb-item active">Home</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+            <!-- Main content -->
+            <div class="content">
+                <div class="container">
+
+                    <a href="form-pendaftaran.html" class="btn btn-primary mb-4"><i class="fas fa-plus mr-2"></i>
+                        Pendaftaran TA</a>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card card-primary card-outline">
+                                <div class="card-header">
+                                    <h3 class="card-title">Pendaftaran Anda</h3>
+                                </div>
+                                <div class="card-body">
+
+                                    Dosen Pembimbing : <strong>Nama dosen</strong>
+
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Dokumen</th>
+                                                <th>Status</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <a href="">Dokumen 1</a>
+                                                    <a href="">Dokumen 2</a>
+                                                    <a href="">Dokumen 3</a>
+                                                    <a href="">Dokumen 4</a>
+                                                    <a href="">Dokumen 5</a>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-success">Diterima</span>
+                                                    <span class="badge bg-warning">Revisi</span>
+                                                    <span class="badge bg-secondary">Review</span>
+                                                </td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm"><i
+                                                            class="fas fa-download mr-1"></i>
+                                                        Surat Tugas Bimbingan TA</a>
+                                                    <a href="" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen mr-1"></i>
+                                                        Edit</a>
+                                                    <a href="" class="btn btn-danger btn-sm"><i
+                                                            class="fas fa-trash mr-1"></i>Hapus</a>
+                                                </td>
+                                            </tr>
+                                            <!-- Data kosong -->
+                                            <!-- <tr>
+                                                <td colspan="6">
+                                                    <div class="text-center">
+                                                        Belum ada pengajuan TA
+                                                    </div>
+                                                </td>
+                                            </tr> -->
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Dokumen</th>
+                                                <th>Status</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Control Sidebar -->
+        <aside class=" control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+                Template by <a href="https://adminlte.io">AdminLTE</a>
+            </div>
+            <!-- Default to the left -->
+            &copy 2022-All Right Reserverd. Presented by <a href="https://fastikom-unsiq.ac.id/"
+                class="text-decoration-none fw-semibold">Fastikom</a>
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="/AdminLTE/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/AdminLTE/dist/js/adminlte.min.js"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="/AdminLTE/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="/AdminLTE/plugins/jszip/jszip.min.js"></script>
+    <script src="/AdminLTE/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="/AdminLTE/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="/AdminLTE/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="/AdminLTE/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+
+        });
+    </script>
+</body>
+</html>
