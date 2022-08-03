@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Form Pendaftaran TA</title>
+    <title>Form Pendaftaran Ujian Pendadaran</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -51,7 +51,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <a href="pengajuan.html" class="nav-link">Pengajuan TA</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pendaftaran.html" class="nav-link active">Pendaftaran TA</a>
+                            <a href="pendaftaran.html" class="nav-link">Pendaftaran TA</a>
                         </li>
                         <li class="nav-item">
                             <a href="bimbingan.html" class="nav-link">Bimbingan</a>
@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <a href="seminar.html" class="nav-link">Seminar Proposal</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ujian.html" class="nav-link">Ujian Pendadaran</a>
+                            <a href="ujian.html" class="nav-link active">Ujian Pendadaran</a>
                         </li>
                     </ul>
                 </div>
@@ -116,12 +116,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="container">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Form Pendaftaran Tugas Akhir</h1>
+                            <h1 class="m-0">Form Pendaftaran Ujian Pendadaran</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Pendaftaran TA</a></li>
-                                <li class="breadcrumb-item active">Form Pendaftaran TA</li>
+                                <li class="breadcrumb-item"><a href="#">Ujian Pendadaran</a></li>
+                                <li class="breadcrumb-item active">Form Pendaftaran Ujian Pendadaran</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -136,7 +136,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <div class="col-md-12">
                             <div class="card card-primary card-outline">
                                 <div class="card-header">
-                                    <h3 class="card-title">Form Pendaftaran Tugas Akhir</h3>
+                                    <h3 class="card-title">Form Pendaftaran Ujian Pendadaran</h3>
                                 </div>
                                 <div class="card-body">
                                     <form action="" method="post" enctype="multipart/form-data">
@@ -157,24 +157,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Pembimbing Utama (1) Tugas Akhir <br>
-                                                <small>Lembar Bimbingan Pembimbing Utama Bisa didownload disini : <a
-                                                        href="https://drive.google.com/file/d/1Velgma6Skdufta177kz6Z4DEFVAI50F9/view?usp=sharing"
-                                                        target="_blank">Download</a></small>
-                                            </label>
-                                            <input type="text" class="form-control" value="Nama Dosen" disabled>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Pembimbing Pendamping (2) Tugas Akhir <br>
-                                                <small>Lembar Bimbingan Pembimbing Pendamping Bisa didownload disini :
-                                                    <a href="https://drive.google.com/file/d/1UWl33hEeZMSDpLTmxlXXKNYAlbwLJG3T/view?usp=sharing"
-                                                        target="_blank">Download</a></small>
-                                            </label>
-                                            <input type="text" class="form-control" value="Nama Dosen" disabled>
-                                        </div>
-
-                                        <div class="form-group">
                                             <label for="exampleInputEmail1">Judul Tugas Akhir</label>
                                             <input type="text" class="form-control" value="Judul Tugas Akhir" disabled>
                                         </div>
@@ -191,6 +173,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                     dan Telegram</small> </label>
                                             <input type="number" class="form-control" placeholder="Masukkan no hp..."
                                                 required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Kelas
+                                            </label>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="radio" name="kelas"
+                                                    value="reguler">
+                                                <label class="form-check-label" style="top: -1px; position:relative;">A
+                                                    / Reguler</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="radio" name="kelas"
+                                                    value="ekstensi">
+                                                <label class="form-check-label" style="top: -1px; position:relative;">B
+                                                    / Ekstensi (Pegawai) </label>
+                                            </div>
                                         </div>
 
                                         <div class="form-group">
@@ -215,148 +214,223 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="exampleInputFile">Dokumen Acc. Kaprodi <br> <small>Bukti
-                                                    Foto/File
-                                                    sudah disetujui oleh Kaprodi</small> </label>
-                                            <div class="input-group mb-3">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" required>
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Dokumen</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Bukti Lembar Pernyataan Keaslian Hasil Tugas
-                                                Akhir
-                                                <br>
-                                                <small>Contoh bisa didownload di link berikut :
-                                                    <a href="https://drive.google.com/file/d/1PHySzONI1Wf4hWN6CBgODJoonAV0IRyS/view?usp=sharing"
-                                                        target="_blank">Download</a></small>
-                                            </label>
-                                            <div class="input-group mb-3">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" required>
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Dokumen</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputFile">Bukti Transkrip Nilai <br>
-                                                <small>Jika SKS lulus lebih dari 120 maka pengajuan Surat Tugas
-                                                    Pembimbing akan diproses namun jika belum memenuhi 120 sks lulus
-                                                    maka pengajuan akan dibatalkan.</small> </label>
-                                            <div class="input-group mb-3">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" required>
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Dokumen</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputFile">Bukti Pengumpulan KP <br>
-                                                <small>bukti diminta di perpus FASTIKOM</small></label>
-                                            <div class="input-group mb-3">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" required>
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Dokumen</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputFile">Bukti Pembayaran Tugas Akhir <br>
-                                                <small>Pembayaran Tugas Akhir (TA) ke Juru bayar FASTIKOM. ( Mas
-                                                    Harri)</small> </label>
-                                            <div class="input-group mb-3">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" required>
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Dokumen</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Nomor Pembayaran <br> <small>(PBXXXX) yang
-                                                    tertera pada Bukti Bayar FASTIKOM (BUKAN NOMOR TRANSFER DARI
-                                                    BANK)</small></label>
+                                            <label for="exampleInputEmail1">Tempat Lahir</label>
                                             <input type="text" class="form-control"
-                                                placeholder="Masukkan Nomor Pembayaran.." required>
+                                                placeholder="Masukkan Tempat Lahir.." required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Tanggal Pembayaran</label>
-                                            <input type="date" class="form-control" placeholder="Tanggal Pembayaran.."
-                                                required>
+                                            <label for="exampleInputEmail1">Tanggal Lahir</label>
+                                            <input type="date" class="form-control" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">BIAYA TUGAS AKHIR (TA) / SKRIPSI
+                                            <label for="exampleInputEmail1">Alamat Lengkap <br>
+                                                <small>Mohon Diisi yang Lengkap</small></label>
+                                            <input type="text" class="form-control"
+                                                placeholder="Masukkan Alamat Lengkap..." required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Tanggal Pembuatan Tugas Akhir</label>
+                                            <input type="date" class="form-control" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Pembimbing Utama (1) Tugas Akhir</label>
+                                            <input type="text" class="form-control" value="Nama Dosen" disabled>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Tanggal Acc. Pembimbing Utama (1)</label>
+                                            <input type="date" class="form-control" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Pembimbing Pendamping (2) Tugas Akhir
                                             </label>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="750000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Program Sarjana Kelas A
-                                                    (Reguler) : Rp. 750.000,-</label>
+                                            <input type="text" class="form-control" value="Nama Dosen" disabled>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Tanggal Acc. Pembimbing Pendamping (2)
+                                            </label>
+                                            <input type="date" class="form-control" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Bukti Lunas Pembayaran SPP Sampai Semester
+                                                Terakhir & Bukti Lunas Pembayaran SPP Variabel Khusus Kelas B / Ekstensi
+                                                (Pegawai) <br> <small>Dijadikan 1 file PDF / JPEG</small> </label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="375000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Perpanjang Program Sarjana
-                                                    Kelas A (Reguler) : Rp. 375.000,-</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Bukti Lunas Pembayaran Tugas Akhir (TA)
+                                                <br>
+                                                <small>Jika Tugas Akhir Kadaluarsa disertakan pula slip pembayaran
+                                                    Perpanjang Tugas Akhir (TA)</small>
+                                            </label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="850000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Program Sarjana Kelas B
-                                                    (Ekstensi) : Rp. 850.000,-</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Scan Ijazah Terakhir Yang Asli</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="425000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Perpanjang Program Sarjana
-                                                    Kelas B (Ekstensi) : Rp. 425.000,-</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Scan KTP / Kartu Keluarga Terbaru</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="650000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Program Diploma Kelas A
-                                                    (Reguler) : Rp. 650.000,-</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Scan Sertifikat TOEFL</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
-                                            <div class="form-check mb-2">
-                                                <input class="form-check-input" type="radio" name="biaya"
-                                                    value="325000">
-                                                <label class="form-check-label"
-                                                    style="top: -1px; position:relative;">Perpanjang Program Diploma
-                                                    Kelas A (Reguler) : Rp. 325.000,-</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Scan Sertifikat Tahfidz</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
                                             </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Scan Sertifikat Komputer</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Transkrip Nilai Semenara (Tanpa Nilai
+                                                D/E/Kosong, kecuali nilai Tugas Akhir/Skripsi)</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Berkas File Tugas Akhir Lengkap (Dari Halaman
+                                                Judul sampai Daftar Pustaka dan Lampiran)</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Scan Lembar Bimbingan TA Yang Telah di Acc.
+                                                Oleh Dosen Pembimbing 1 dan 2</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Scan Surat Tugas Pembimbing TA</label>
+                                            <div class="input-group mb-3">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" required>
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Dokumen</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">UPLOAD LINK VIDEO PRESENTASI UJIAN
+                                                PENDADARAN TUGAS AKHIR / SKRIPS <br> <small>Silahkan buat video
+                                                    presentasi hasil Tugas Akhir Kalian lalu upload ke Google drive atau
+                                                    Youtube dan isi link video yang kalian buat agar bisa dilihat oleh
+                                                    penguji ujian Pendadaran Tugas Akhir/Skripsi. (Opsional, Boleh Buat
+                                                    Video Boleh Juga Tidak Buat Video)</small></label>
+                                            <input type="text" class="form-control"
+                                                placeholder="Masukkan link video presentasi ujian Pendadaran..."
+                                                required>
                                         </div>
 
                                         <div class="form-group mt-4">
@@ -419,26 +493,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="../../adminLTE/plugins/summernote/summernote-bs4.min.js"></script>
     <!-- bs-custom-file-input -->
     <script src="../../adminLTE/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
-    <script>
-        $(function () {
-            $("#example1").DataTable({
-                "responsive": true, "lengthChange": false, "autoWidth": false,
-            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-
-        });
-    </script>
-    <script>
-        $(function () {
-            // Summernote
-            $('#summernote').summernote()
-
-            // CodeMirror
-            CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
-                mode: "htmlmixed",
-                theme: "monokai"
-            });
-        })
-    </script>
     <script>
         $(function () {
             bsCustomFileInput.init();
